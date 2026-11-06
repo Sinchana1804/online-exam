@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: online-examination-system
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
